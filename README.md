@@ -65,8 +65,8 @@ repo/
 
 Clone repo and install dependencies:
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/sharad0x/ML_4_PlantDiseaseDetection-ImageClassification-_ARITHMATRIX
+cd ML_4_PlantDiseaseDetection-ImageClassification-_ARITHMATRIX
 pip install -r requirements.txt
 ```
 ---
@@ -79,7 +79,7 @@ python src/train.py
 ```
 
 This will:
-- Train the CNN on data/train/
+- Train the EfficientNet-B3 on data/train/
 - Save the best model as model.pth
 - Generate accuracy curves
 
